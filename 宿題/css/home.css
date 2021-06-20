@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 图片背景 */
+body{
+    background-image: url(../img/my_background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+/* 大标题 */
+.title{
+    padding-top: 140px; 
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+/* 页面导航栏 */
+ul { padding-left: 0; 
+}
+ul li { list-style-type: none; 
+}
+a { color: inherit; text-decoration: none; 
+}
+.page-header {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    min-width: 960px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.page-header.sticky {
+    position: fixed;
+    top: 0;
+} 
+
+.page-header > .inner {
+    margin: auto;
+    width: 960px;
+}
+
+.no-boxshadow .page-header {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.primary-nav {
+    float: right;
+    line-height: 80px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.primary-nav li {
+    float: left;
+}
+.primary-nav a {
+    display: block;
+    padding: 0 1.36em;
+}
+.primary-nav a:hover {
+    background-color: rgb(240, 240, 240);
+}
+/* 图片展示外方格 */
+.b1{
+    width: 1200px;
+    margin: 115px auto 50px;
+    border-top: 1px rgb(255, 255, 255,0.7) solid;
+    background-color: rgb(255, 255, 255,0.7);
+}
+.b2{
+    margin: 50px;
+}
+.b3{
+    margin: 50px;
+    height: 550px;
+}
+.t1{
+    margin: 0 50px 50px 0;
+}
+.t2{
+    margin: 0 50px 50px 0;
+}
+.t3{
+    margin: 0 0 50px 0;
+}
+.t4{
+    margin: 0 50px 0 0;
+}
+.t5{
+    margin: 0 50px 0 0;
+}
+

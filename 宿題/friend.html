@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>R20E3011 謝 佩恒の情報収集</title>
+  <html lang="ja" >
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css\friend.css">
+   <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- 大标题 -->
+  <div class="title">
+    <h1>R20E3011 謝 佩恒の情報収集</h1>
+  </div>
+  <!-- 页面导航栏 -->
+ <header class="page-header">
+    <div class="inner">
+      <nav class="primary-nav">
+        <ul>
+          <li><a href="my.html">自分紹介</a></li>
+          <li><a href="home.html">故郷紹介</a></li>
+          <li><a href="picture.html">絵の展示</a></li>
+          <li><a href="friend.html">情報収集</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+      <div class="b1">
+          <div class="b2">
+              <h2>お知らせ</h2>
+              <br>
+              <p>次の表に記入してください。私と友達になりましょう。</p>
+              <br>
+              <p>クリックして提出したら、提出成功という文字が出ますが、本当に提出しませんよ。</p>
+              <br>
+              <p>このページでは情報を提出できませんが、私に連絡したいなら、私のメールアドレスは826288659@qq.comメールを送ってください。</p>
+          </div>
+          <div class="b3">
+      <!-- 表单内容 -->
+      <form>
+		<div class="items">
+			<div class="itemName">名前</div>
+			<div class="inputContent">
+				<input type="text" name="userName" id="userName" required="required" placeholder="Kosuke Kito" />
+			</div>
+		</div>
+		<div class="items">
+			<div class="itemName">メールアドレス</div>
+			<div class="inputContent">
+				<input type="email" name="userMail" id="userMail" required="required" placeholder="example@email.com" />
+			</div>
+		</div>
+		
+		<div class="items">
+			<div class="itemName">性別</div>
+			<div class="inputContent">
+				<label>
+					<input type="radio" name="sex" id="userSexMen" value="men"/> Men
+				</label>	
+				<label>
+					<input type="radio" name="sex" id="userSexMen" value="Women"/> Women
+				</label>
+			</div>
+		</div>
+		
+		<div class="items" id="textarea">
+			<div class="itemName" >言いたいこと</div>
+			<div class="inputContent" id="textAreaID">
+				<textarea name="InquiryText" id="InquiryText" required="required"
+				cols="39" rows="7" placeholder="言いたいことについてご記入ください。"></textarea>
+			</div>
+		</div>
+		
+		<div class="items" id="submitArea">
+			<button type="submit" id="click">送信</button>
+		</div>
+	</form>
+        <div id="bg">
+            <div id="alertbox">
+                <text>送信成功</text><br>
+                <button id="ok">ok</button>
+            </div>
+        </div>
+    </div>
+        <!-- 表单内容 -->
+      </div>
+  </main>
+</body>
+</html>
